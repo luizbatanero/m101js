@@ -1,2 +1,3 @@
-# m101js
-MongoDB for Node.js Developers homework files
+# M101JS
+
+> [MongoDB for Node.js Developers](https://university.mongodb.com/courses/M101JS/about) homework files
