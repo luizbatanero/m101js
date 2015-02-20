@@ -9,7 +9,7 @@ MongoClient.connect('mongodb://localhost:27017/final', function(err, db) {
 
     db.collection('albums').aggregate([
         { $project : { images : 1 } },
-        { $unwind : "$images"},
+        { $unwind : '$images' },
         { $group: {
             _id: 'images',
             images: { $addToSet : '$images' }
